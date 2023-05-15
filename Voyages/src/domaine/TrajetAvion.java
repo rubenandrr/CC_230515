@@ -4,6 +4,9 @@ import java.time.LocalDate;
 import java.time.LocalTime;
 
 public class TrajetAvion extends Trajet {
+    /**
+     * Cette classe extends de Trajet et ajoute des informations spécifiques à un trajet en avion.
+     * */
     private String companie;
     private String aeroportDepart;
     private String aeroportArrivee;

@@ -1,23 +1,21 @@
 package domaine;
 
-import domaine.Vechicule;
-
 import java.time.LocalDate;
 
 public class ReservationVehicule extends Reservation{
-    private Vechicule vehiculeReserve;
+    private Vehicule vehiculeReserve;
 
-    public ReservationVehicule(LocalDate dateDebut, LocalDate dateFin, Client client, Vechicule vehiculeReserve) {
+    public ReservationVehicule(LocalDate dateDebut, LocalDate dateFin, Client client, Vehicule vehiculeReserve) {
         super(dateDebut, dateFin, client);
         this.vehiculeReserve = vehiculeReserve;
     }
 
 
-    public Vechicule getVehiculeReserve() {
+    public Vehicule getVehiculeReserve() {
         return vehiculeReserve;
     }
 
-    public void setVehiculeReserve(Vechicule vehiculeReserve) {
+    public void setVehiculeReserve(Vehicule vehiculeReserve) {
         this.vehiculeReserve = vehiculeReserve;
     }
 }

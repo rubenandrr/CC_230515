@@ -1,6 +1,11 @@
 package domaine;
 
 public class Maison extends Propriete {
+    /**
+     * Cette classe extends de Propriete et ajoute des informations spécifiques à une maison.
+     * Ce qu'il faut ajouter :
+     *      Un builder qui va permettre de créer une maison avec les informations optionnelles qu'elle aura besoin
+     * */
 
     private Boolean airConditionne;
     private Boolean piscine;

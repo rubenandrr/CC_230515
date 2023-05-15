@@ -1,12 +1,15 @@
 package domaine;
 
-public abstract class Vechicule {
+public abstract class Vehicule {
+    /**
+     * Classe abstraite Vehicule
+     * */
     private Integer id;
     private String immatriculation;
     private String marque;
     private String modele;
 
-    public Vechicule(String immatriculation, String marque, String modele) {
+    public Vehicule(String immatriculation, String marque, String modele) {
         this.immatriculation = immatriculation;
         this.marque = marque;
         this.modele = modele;

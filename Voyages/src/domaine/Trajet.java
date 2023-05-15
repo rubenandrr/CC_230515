@@ -4,6 +4,9 @@ import java.time.LocalDate;
 import java.time.LocalTime;
 
 public abstract class Trajet {
+    /**
+     * Cette classe représente un trajet entre deux villes.
+     * */
     private String origine;
     private String destination;
     private LocalDate dateDepart;

@@ -29,6 +29,4 @@ public class CentraleReservation {
         // Dans ce prototype les réservations ont un prix aléatoire entre 100 et 2000 CHF
         return rand.nextFloat()*1900.0F + 100.0F;
     }
-
-
 }

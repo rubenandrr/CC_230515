@@ -1,6 +1,9 @@
 package domaine;
 
-public class Moto extends Vechicule {
+public class Moto extends Vehicule {
+    /**
+     * Cette classe extends de Vehicule et ajoute des informations spécifiques à une moto.
+     * */
     private Integer id;
     private Integer cylindree;
 

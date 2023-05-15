@@ -1,6 +1,9 @@
 package domaine;
 
 public abstract class Propriete {
+    /**
+     * Dans cette classe il y a toutes les informations relatives à une propriété → Appelé "Logement" dans le diagramme de classe
+     * */
     private Integer id;
     private Client proprietaire;
     private Float superficie;

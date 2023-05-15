@@ -4,6 +4,9 @@ import java.time.LocalDate;
 import java.time.LocalTime;
 
 public class TrajetTrain extends Trajet {
+    /**
+     * Cette classe extends de Trajet et ajoute des informations spécifiques à un trajet en train.
+     * */
 
     private String gareDepart;
     private String gareArrivee;

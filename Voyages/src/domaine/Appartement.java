@@ -1,6 +1,11 @@
 package domaine;
 
 public class Appartement extends Propriete {
+    /**
+     * Cette classe extends la classe Propriete et ajoute des attributs spécifiques aux appartements
+     * Ce qu'il faut ajouter :
+     *     Un builder qui va permettre de créer un appartement avec les informations optionnelles qu'il aura besoin
+     * */
     private Boolean airConditionne;
     private Boolean piscine;
     private Boolean balcon;
